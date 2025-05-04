@@ -67,8 +67,12 @@ Alternativamente, você pode clonar este repositório:
 ```bash
 git clone https://github.com/julianol1berato/halcyon-vim.git
 cp .vimrc ~/.vimrc
-# Copie também o arquivo halcyon.vim para ~/.vim/colors/
 ```
+
+Copie também o arquivo
+
+`halcyon.vim para ~/.vim/colors/`
+
 
 ## Resolução de Problemas
 
@@ -98,7 +102,9 @@ Se você encontrar erros relacionados ao tema do Airline, certifique-se de que o
 
 ## Personalização
 
-Você pode ajustar o tema Halcyon modificando o arquivo `~/.vim/colors/halcyon.vim`. Algumas sugestões de personalização:
+Você pode ajustar o tema Halcyon modificando o arquivo `~/.vim/colors/halcyon.vim`. 
+
+Algumas sugestões de personalização:
 
 - Alterar cores de destaque: Modifique as variáveis de cores no início do arquivo
 - Ajustar a coloração da interface: Edite as definições de `highlight` para os grupos desejados
