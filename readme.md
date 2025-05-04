@@ -2,7 +2,7 @@
 
 Uma adaptação do tema Halcyon para o Vim, oferecendo uma experiência visual elegante com um esquema de cores azul escuro para desenvolvimento.
 
-![Exemplo do Vim](https://raw.githubusercontent.com/julianol1berato/halcyon-vim/refs/heads/main/screenshot/vim1.png)
+![Exemplo do Vim](screenshot/vim1.png)
 
 ## Sobre o Tema
 
