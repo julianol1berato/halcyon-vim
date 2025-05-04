@@ -2,7 +2,7 @@
 
 Uma adaptação do tema Halcyon para o Vim, oferecendo uma experiência visual elegante com um esquema de cores azul escuro para desenvolvimento.
 
-![Exemplo do Vim](https://github.com/julianol1berato/manuais-startup/raw/main/vim-bash/vim1.png)
+![Exemplo do Vim](https://raw.githubusercontent.com/julianol1berato/halcyon-vim/refs/heads/main/screenshot/vim1.png)
 
 ## Sobre o Tema
 
@@ -51,7 +51,7 @@ O tema é otimizado para:
 4. **Use o arquivo .vimrc deste repositório**:
    ```bash
    curl -fLo ~/.vimrc --create-dirs \
-       https://raw.githubusercontent.com/julianol1berato/manuais-startup/main/vim-bash/.vimrc
+       https://raw.githubusercontent.com/julianol1berato/halcyon-vim/main/.vimrc
    ```
 
 5. **Instale os plugins**:
@@ -65,8 +65,7 @@ O tema é otimizado para:
 Alternativamente, você pode clonar este repositório:
 
 ```bash
-git clone https://github.com/julianol1berato/manuais-startup.git
-cd manuais-startup/vim-bash
+git clone https://github.com/julianol1berato/halcyon-vim.git
 cp .vimrc ~/.vimrc
 # Copie também o arquivo halcyon.vim para ~/.vim/colors/
 ```
