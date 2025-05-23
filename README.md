@@ -37,24 +37,23 @@ O tema é otimizado para:
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
    ```
 
-2. **Crie o diretório para o tema**:
    ```bash
-   mkdir -p ~/.vim/colors
+   apt install nodejs
    ```
 
-3. **Baixe o arquivo de tema**:
+2. **Baixe o arquivo de tema - Crie o arquivo halcyon.vim em ~/.vim/colors/**:
    ```bash
-   # Crie o arquivo halcyon.vim em ~/.vim/colors/
-   # com o conteúdo do arquivo de tema
+   curl -fLo ~/.vim/colors/halcyon.vim --create-dirs \
+       https://raw.githubusercontent.com/julianol1berato/halcyon-vim//main/colors/halcyon.vim
    ```
 
-4. **Use o arquivo .vimrc deste repositório**:
+3. **Use o arquivo .vimrc deste repositório**:
    ```bash
    curl -fLo ~/.vimrc --create-dirs \
        https://raw.githubusercontent.com/julianol1berato/halcyon-vim/main/.vimrc
    ```
 
-5. **Instale os plugins**:
+4. **Instale os plugins**:
    Abra o Vim e execute:
    ```
    :PlugInstall
